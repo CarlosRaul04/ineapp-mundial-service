@@ -12,6 +12,6 @@ public class HomeController {
 
     @RequestMapping("")
     public String Index(@RequestParam(defaultValue = "Invitado") String param){
-        return "Bienvenido".concat(param);
+        return "Bienvenido ".concat(param);
     }
 }
